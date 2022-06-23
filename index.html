@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+    <title>Clock</title>
+</head>
+<body>
+   <header>
+    <h1>Welcome to Prayer Time App</h1>
+   </header>
+   
+    <div class="icon-large icon-clock">
+        <div class="clock">
+          <ol>
+            <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+          </ol>
+       <!-- Clock hand-->
+       <div id="hour"></div>
+    <div id="min"></div>
+    <div id="sec"></div>
+        </div>
+      </div>
+      <div>
+        <form action="">
+            <input name="zipcode" class="zipcode" placeholder="Type zipcode">
+            <label for="prayer">Choose a Prayer:</label>
+
+            <select name="cars" id="prayer">
+              <option value="Jimca Prayer">Jimca Prayer</option>
+              <option value="Ciid Prayer">Ciid Prayer</option>
+              <option value="Trawiix Prayer">Taraawiix Prayer</option>
+              <option value="Tahajud Prayer">Tahajud Prayer</option>
+            </select>
+            
+          </form>
+      </div>
+      
+      <table class="content-table">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Prayer Time</th>
+                <th>Masjid Name</th>
+                <th>Address</th>
+              </tr>
+          
+        </thead>
+        <tbody>
+          <tr>
+            <th>1</th>
+            <td>12:30</td>
+            <td>24 Mall</td>
+            <td>912 E 24th St, Minneapolis, MN 55404</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>1:00</td>
+            <td>Nurul-Iman</td>
+            <td>2222 Park Ave</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td>1:30</td>
+            <td >Umatul Islam</td>
+            <td>3015 2nd Ave South</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <script src="./main.js"></script>
+</body>
+</html>
